@@ -54,7 +54,7 @@ function calculate(){
         
         
     }else{
-        return (result.innerHTML = eval(result.innerHTML));
+        return (result.innerHTML = eval(result.innerHTML).toFixed(2));
     }
 }
 
